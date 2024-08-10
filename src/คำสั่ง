@@ -1,0 +1,2 @@
+npx json-server --watch .\src\database\data.json --port 3000
+npm start

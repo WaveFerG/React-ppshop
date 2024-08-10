@@ -1,0 +1,186 @@
+
+  .add-product-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000; /* Set a higher z-index to make sure it appears on top of other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 18rem;
+ }
+
+ .product-container :hover {
+  transform: translateY(-1px);
+}
+  
+  .product-card {
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+  .product-card h2 {
+    color: rgb(0, 0, 0);
+  }
+  .product-image-input {
+    width: 100%; /* or any other size */
+    height: auto;
+  }
+  .product-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Set max height for the image */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+
+  }
+  .logo-image {
+    width: 150px; /* adjust as needed */
+  }
+  .product-name, .product-description {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  .link-black {
+    color: black;
+  }
+  .color-text {
+    color: rgb(231, 231, 231);
+  }
+ 
+  
+  
+
+
+
+  .addproductbt {
+    margin-bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #494949;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #131313;
+    padding: 5px;
+    
+}
+
+.addproductbt:hover {background-color: #8a8a8a}
+
+.addproductbt:active {
+  background-color: #a0a0a0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
+
+.addproductbt a {
+  text-decoration: none;
+  color: black;
+ 
+}
+
+.edit-button-container {
+  justify-content: center;
+  margin-top: 20px; /* ปรับตำแหน่งของปุ่ม Edit ตามต้องการ */
+}
+
+.edit-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* สีของปุ่ม Edit ตามต้องการ */
+  color: #fff; /* สีข้อความของปุ่ม Edit */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #0056b3; /* สีเมื่อเม้าส์ Hover บนปุ่ม Edit */
+}
+
+.edit-button2 {
+  padding: 10px 20px;
+  background-color: #a83a2b; /* สีของปุ่ม Edit ตามต้องการ */
+  color: #fff; /* สีข้อความของปุ่ม Edit */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button2:hover {
+  background-color: #810606; /* สีเมื่อเม้าส์ Hover บนปุ่ม Edit */
+}
+
+.edit-button3 {
+  padding: 10px 20px;
+  background-color: #575757; /* สีของปุ่ม Edit ตามต้องการ */
+  color: #fff; /* สีข้อความของปุ่ม Edit */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button3:hover {
+  background-color: #282929; /* สีเมื่อเม้าส์ Hover บนปุ่ม Edit */
+}
+
+.edit-product-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้กรอบ */
+}
+
+.edit-product-modal h2 {
+  margin-bottom: 10px;
+}
+
+.edit-product-modal label {
+  font-weight: bold;
+}
+
+.edit-product-modal input[type="text"],
+.edit-product-modal textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.edit-product-modal button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.edit-product-modal button:hover {
+  background-color: #0056b3;
+}

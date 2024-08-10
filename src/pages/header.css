@@ -1,0 +1,115 @@
+/* header.css */
+
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(34, 30, 30);
+  height: 10px;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: #fff;
+  /* ปรับขนาดของ ☰ ตามต้องการ */
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.header-icons .fa-icon {
+  font-size: 28px;
+  /* ปรับขนาดไอคอนตามที่ต้องการ */
+}
+
+.spacer {
+  flex-grow: 1;
+  /* ทำให้ Spacer ขยายตามพื้นที่ที่เหลือ */
+}
+
+.pp-shop {
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  
+  
+}
+
+.pp-shop:hover {
+  background: #fff;
+  color: #000;
+}
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: -400px;
+  width: 150px;
+  height: 15%;
+  background-color: rgb(34, 30, 30);
+  padding-top: 40px;
+  transition: left 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.nav-open {
+  left: +140px;
+ 
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.navbar li {
+  margin-bottom: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  padding: 5px;
+  
+}
+
+.navbar li:hover {background-color: #7df2fa}
+
+.navbar li:active {
+  background-color: #7db3fa;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+ 
+}

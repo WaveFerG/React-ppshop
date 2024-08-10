@@ -1,0 +1,57 @@
+.account-container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 3px solid #ccc;
+}
+.account-container1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 3px solid #030303;
+  z-index: 1000; /* Set a higher z-index to make sure it appears on top of other elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 50px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+
+
+
+
+.welcome-message {
+  margin-bottom: 20px;
+  font-size: 24px; /* เพิ่มขนาดตัวอักษร */
+  color: #333; /* เปลี่ยนสีตัวอักษร */
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 30px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* เพิ่มการเปลี่ยนสีอย่างนุ่มนวล */
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.logo-image {
+  width: 150px; /* adjust as needed */
+}
+
+.color-text {
+  color: rgb(231, 231, 231);
+}
